@@ -7,7 +7,6 @@ from django.utils.translation import ugettext_lazy as _
 
 class User(AbstractUser):
     name = models.CharField(null=True, blank=True, max_length=255,)
-    new_title = models.CharField(null=True, blank=True, max_length=256,)
     df = models.BigIntegerField(null=True, blank=True,)
 
     def get_absolute_url(self):

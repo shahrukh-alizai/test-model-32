@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29b0ff6a-f7c8-420b-b2b6-15b0250cdfee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="c8cf6e0c-32e8-490e-9968-e87d85092290" />
+  <component name="ProjectId" id="1ga5s4rL3QUnWYo18qysFITUNGF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test_model_32" type="Python.DjangoServer" factoryName="Django server">
+      <module name="test_model_32" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="test_model_32.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/fahad/test_model_32/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8003" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29b0ff6a-f7c8-420b-b2b6-15b0250cdfee" name="Default Changelist" comment="" />
+      <created>1598340066699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598340066699</updated>
+      <workItem from="1598340067995" duration="2222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="258" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598341004795">
+      <screen x="0" y="27" width="1600" height="834" />
+    </state>
+    <state x="258" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1600.834@0.27.1600.834" timestamp="1598341004795" />
+    <state width="1554" height="233" key="GridCell.Tab.0.bottom" timestamp="1598341676068">
+      <screen x="0" y="27" width="1600" height="834" />
+    </state>
+    <state width="1554" height="233" key="GridCell.Tab.0.bottom/0.27.1600.834@0.27.1600.834" timestamp="1598341676068" />
+    <state width="1554" height="233" key="GridCell.Tab.0.center" timestamp="1598341676068">
+      <screen x="0" y="27" width="1600" height="834" />
+    </state>
+    <state width="1554" height="233" key="GridCell.Tab.0.center/0.27.1600.834@0.27.1600.834" timestamp="1598341676068" />
+    <state width="1554" height="233" key="GridCell.Tab.0.left" timestamp="1598341676068">
+      <screen x="0" y="27" width="1600" height="834" />
+    </state>
+    <state width="1554" height="233" key="GridCell.Tab.0.left/0.27.1600.834@0.27.1600.834" timestamp="1598341676068" />
+    <state width="1554" height="233" key="GridCell.Tab.0.right" timestamp="1598341676068">
+      <screen x="0" y="27" width="1600" height="834" />
+    </state>
+    <state width="1554" height="233" key="GridCell.Tab.0.right/0.27.1600.834@0.27.1600.834" timestamp="1598341676068" />
+    <state x="289" y="78" key="SettingsEditor" timestamp="1598340534268">
+      <screen x="0" y="27" width="1600" height="834" />
+    </state>
+    <state x="289" y="78" key="SettingsEditor/0.27.1600.834@0.27.1600.834" timestamp="1598340534268" />
+    <state x="100" y="125" width="1400" height="636" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598341659709">
+      <screen x="0" y="27" width="1600" height="834" />
+    </state>
+    <state x="100" y="125" width="1400" height="636" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1600.834@0.27.1600.834" timestamp="1598341659709" />
+    <state x="491" y="182" width="857" height="522" key="find.popup" timestamp="1598340938503">
+      <screen x="0" y="27" width="1600" height="834" />
+    </state>
+    <state x="491" y="182" width="857" height="522" key="find.popup/0.27.1600.834@0.27.1600.834" timestamp="1598340938503" />
+  </component>
+</project>
