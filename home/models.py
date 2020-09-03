@@ -10,6 +10,13 @@ class CustomText(models.Model):
     title = models.CharField(
         max_length=150,
     )
+    option2 = models.OneToOneField(
+        "users.User",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="customtext_option2",
+    )
 
     def __str__(self):
         return self.title
@@ -28,6 +35,13 @@ class HomePage(models.Model):
     test = models.BigIntegerField(
         null=True,
         blank=True,
+    )
+    option1 = models.ForeignKey(
+        "home.DemoApp",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="homepage_option1",
     )
 
     @property

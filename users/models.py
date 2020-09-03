@@ -15,6 +15,11 @@ class User(AbstractUser):
         null=True,
         blank=True,
     )
+    test = models.ManyToManyField(
+        "home.DemoApp",
+        blank=True,
+        related_name="user_test",
+    )
 
     def get_absolute_url(self):
         return reverse("users:detail", kwargs={"username": self.username})
