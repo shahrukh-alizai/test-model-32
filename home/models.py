@@ -42,3 +42,8 @@ class HomePage(models.Model):
 class Demo(models.Model):
     "Generated Model"
     tests = models.BigIntegerField()
+
+
+class NewAPP(models.Model):
+    "Generated Model"
+    idasd = models.BigIntegerField()
