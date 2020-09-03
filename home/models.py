@@ -7,7 +7,9 @@ from django.db import models
 
 
 class CustomText(models.Model):
-    title = models.CharField(max_length=150,)
+    title = models.CharField(
+        max_length=150,
+    )
 
     def __str__(self):
         return self.title
@@ -23,7 +25,10 @@ class CustomText(models.Model):
 
 class HomePage(models.Model):
     body = models.TextField()
-    test = models.BigIntegerField(null=True, blank=True,)
+    test = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
 
     @property
     def api(self):
@@ -32,3 +37,8 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class Demo(models.Model):
+    "Generated Model"
+    tests = models.BigIntegerField()
