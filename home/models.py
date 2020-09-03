@@ -37,3 +37,8 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class DemoApp(models.Model):
+    "Generated Model"
+    user2 = models.BigIntegerField()
