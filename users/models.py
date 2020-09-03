@@ -15,6 +15,13 @@ class User(AbstractUser):
         null=True,
         blank=True,
     )
+    rating = models.ForeignKey(
+        "home.NewAPP",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="user_rating",
+    )
 
     def get_absolute_url(self):
         return reverse("users:detail", kwargs={"username": self.username})
