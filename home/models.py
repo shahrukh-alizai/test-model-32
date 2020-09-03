@@ -36,13 +36,6 @@ class HomePage(models.Model):
         null=True,
         blank=True,
     )
-    option1 = models.ForeignKey(
-        "home.DemoApp",
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="homepage_option1",
-    )
 
     @property
     def api(self):
@@ -51,8 +44,3 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
-
-
-class DemoApp(models.Model):
-    "Generated Model"
-    user2 = models.BigIntegerField()

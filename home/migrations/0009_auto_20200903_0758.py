@@ -9,18 +9,30 @@ class Migration(migrations.Migration):
 
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('home', '0008_demoapp'),
+        ("home", "0008_demoapp"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='customtext',
-            name='option2',
-            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='customtext_option2', to=settings.AUTH_USER_MODEL),
+            model_name="customtext",
+            name="option2",
+            field=models.OneToOneField(
+                blank=True,
+                null=True,
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="customtext_option2",
+                to=settings.AUTH_USER_MODEL,
+            ),
         ),
         migrations.AddField(
-            model_name='homepage',
-            name='option1',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='homepage_option1', to='home.DemoApp'),
+            model_name="homepage",
+            name="option1",
+            field=models.ForeignKey(
+                blank=True,
+                null=True,
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="homepage_option1",
+                to="home.DemoApp",
+            ),
         ),
     ]
