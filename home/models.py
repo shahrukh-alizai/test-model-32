@@ -39,11 +39,6 @@ class HomePage(models.Model):
         return "body"
 
 
-class Demo(models.Model):
-    "Generated Model"
-    tests = models.BigIntegerField()
-
-
 class NewAPP(models.Model):
     "Generated Model"
     idasd = models.BigIntegerField()
