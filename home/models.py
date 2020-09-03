@@ -37,8 +37,3 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
-
-
-class NewAPP(models.Model):
-    "Generated Model"
-    idasd = models.BigIntegerField()
